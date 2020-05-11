@@ -93,14 +93,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\UIWindow.h" />
     <ClInclude Include="src\GLFWExample.h" />
     <ClInclude Include="src\platform\imgui_impl_glfw.h" />
     <ClInclude Include="src\platform\imgui_impl_opengl3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Source.cpp" />
-    <ClCompile Include="src\UIWindow.cpp" />
     <ClCompile Include="src\GLFWExample.cpp" />
     <ClCompile Include="src\platform\imgui_impl_glfw.cpp" />
     <ClCompile Include="src\platform\imgui_impl_opengl3.cpp" />

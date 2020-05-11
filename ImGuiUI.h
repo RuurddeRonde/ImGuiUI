@@ -14,10 +14,8 @@ namespace ImGuiUI
 		virtual void update() = 0;
 		void Show();
 		void Hide();
-		std::string GetName();
 	protected:
 		bool showing;
-		std::string name;
 	};
 
 	class WindowManager
@@ -51,6 +49,7 @@ namespace ImGuiUI
 				windows[i]->update();
 			}
 
+			//uncomment to show demowindow
 			//ImGui::ShowDemoWindow();
 			ImGui::Render();
 

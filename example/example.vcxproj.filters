@@ -6,7 +6,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\UIWindow.h" />
     <ClInclude Include="src\platform\imgui_impl_glfw.h">
       <Filter>platform</Filter>
     </ClInclude>
@@ -17,7 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Source.cpp" />
-    <ClCompile Include="src\UIWindow.cpp" />
     <ClCompile Include="src\platform\imgui_impl_glfw.cpp">
       <Filter>platform</Filter>
     </ClCompile>
