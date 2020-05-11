@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\UIWindow.h" />
+    <ClInclude Include="src\platform\imgui_impl_glfw.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\imgui_impl_opengl3.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLFWExample.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Source.cpp" />
+    <ClCompile Include="src\UIWindow.cpp" />
+    <ClCompile Include="src\platform\imgui_impl_glfw.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\imgui_impl_opengl3.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLFWExample.cpp" />
+  </ItemGroup>
+</Project>

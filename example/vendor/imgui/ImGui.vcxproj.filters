@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{84D830B1-70A5-8BBC-99BE-796485EAC04A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="examples\imgui_impl_allegro5.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_dx10.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_dx11.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_dx12.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_dx9.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_glfw.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_glut.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_marmalade.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_metal.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_opengl2.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_opengl3.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_osx.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_sdl.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_vulkan.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\imgui_impl_win32.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="examples\imgui_impl_allegro5.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_dx10.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_dx11.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_dx12.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_dx9.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_glfw.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_glut.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_marmalade.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_opengl2.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_opengl3.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_sdl.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_vulkan.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\imgui_impl_win32.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\pc-6\Documents\OSAS\OSAS\vendor\GLAD\bin\Debug-windows-x86_64\Glad\Glad.pdb
+C:\Users\pc-6\Documents\OSAS\OSAS\vendor\GLAD\bin-int\Debug-windows-x86_64\Glad\Glad.pdb
+C:\Users\pc-6\Documents\programming projects\Wrisc\Wrisc\vendor\GLAD\bin\Debug-windows-x86_64\Glad\Glad.pdb
+C:\Users\pc-6\Documents\programming projects\Wrisc\Wrisc\vendor\GLAD\bin-int\Debug-windows-x86_64\Glad\Glad.pdb
+C:\Users\pc-6\Documents\programming projects\ImGuiUI\example\vendor\GLAD\bin\Debug-windows-x86_64\Glad\Glad.pdb
+C:\Users\pc-6\Documents\programming projects\ImGuiUI\example\vendor\GLAD\bin-int\Debug-windows-x86_64\Glad\Glad.pdb
