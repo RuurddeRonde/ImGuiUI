@@ -1,6 +1,0 @@
-C:\Users\pc-6\Documents\OSAS\OSAS\vendor\imgui\bin\Debug-windows-x86_64\ImGui\ImGui.pdb
-C:\Users\pc-6\Documents\OSAS\OSAS\vendor\imgui\bin-int\Debug-windows-x86_64\ImGui\ImGui.pdb
-C:\Users\pc-6\Documents\programming projects\Wrisc\Wrisc\vendor\imgui\bin\Debug-windows-x86_64\ImGui\ImGui.pdb
-C:\Users\pc-6\Documents\programming projects\Wrisc\Wrisc\vendor\imgui\bin-int\Debug-windows-x86_64\ImGui\ImGui.pdb
-C:\Users\pc-6\Documents\programming projects\ImGuiUI\example\vendor\imgui\bin\Debug-windows-x86_64\ImGui\ImGui.pdb
-C:\Users\pc-6\Documents\programming projects\ImGuiUI\example\vendor\imgui\bin-int\Debug-windows-x86_64\ImGui\ImGui.pdb
