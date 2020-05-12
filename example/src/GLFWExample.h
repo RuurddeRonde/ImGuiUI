@@ -69,7 +69,6 @@ private:
 		virtual void Update();
 		bool shouldClose() { return mainWindow.WindowShouldClose(); }
 	private:
-		//std::vector<std::unique_ptr<ImGuiUI::UIWindow>> windows;
 		Window mainWindow;
 
 	};
