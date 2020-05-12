@@ -18,7 +18,7 @@ Window::Window(int width, int height) : width{ width }, height{ height }
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // uncomment this statement to fix compilation on OS X
 #endif
 
-	window = glfwCreateWindow(width, height, "Wrisc", NULL, NULL);
+	window = glfwCreateWindow(width, height, "ImGuiUI", NULL, NULL);
 	if (window == NULL)
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
@@ -65,13 +65,6 @@ GLFWwindow* Window::getRawWindow()
 
 GLFWWindowManager::GLFWWindowManager() : mainWindow{ SCR_WIDTH, SCR_HEIGHT }
 {
-	//IMGUI_CHECKVERSION();
-	//ImGui::CreateContext();
-	//ImGuiIO& io = ImGui::GetIO(); (void)io;
-	//io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
-	//io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
-	//io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
-
 	ImGui_ImplGlfw_InitForOpenGL(mainWindow.getRawWindow(), true);
 	const char* glsl_version = "#version 410";
 	ImGui_ImplOpenGL3_Init(glsl_version);
@@ -79,7 +72,6 @@ GLFWWindowManager::GLFWWindowManager() : mainWindow{ SCR_WIDTH, SCR_HEIGHT }
 GLFWWindowManager::~GLFWWindowManager()
 {
 	ImGui_ImplOpenGL3_Shutdown();
-	//ImGui::DestroyContext();
 }
 void GLFWWindowManager::Update()
 {
@@ -99,5 +91,4 @@ void GLFWWindowManager::Update()
 	}
 	ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 	mainWindow.Draw();
-
 }
